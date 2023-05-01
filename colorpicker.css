@@ -1,0 +1,40 @@
+.picker {
+    display: grid;
+    background-color: antiquewhite;
+    place-items: center;
+    height: 40%;
+    border: solid;
+    width: 20%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+
+label {
+    display: none;
+    font-size: 15px;
+    background: #f1f1f1;
+    padding: 1px 1px;
+    margin: 0 0 0 0;
+  }
+  input:hover + label {
+    display: inline-block;
+    position: absolute;
+  }
+
+#colorpick {
+    height: 40%;
+    width: 40%;
+}
+
+#box {
+    text-align: center;
+    width: 40%;
+    height: 30%;
+}
